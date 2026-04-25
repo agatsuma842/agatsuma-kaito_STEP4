@@ -5,7 +5,7 @@ header {
 
 nav {
   text-align: center;
-  margin-bottom: 30px;
+  margin: 0;
 }
 
 body {
@@ -24,6 +24,7 @@ h2 {
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 nav li {
@@ -53,6 +54,7 @@ nav a:hover {
 
 .sidebar ul {
   padding-left: 20px;
+  margin: 0;
 }
 
 .sidebar li {
@@ -65,10 +67,11 @@ nav a:hover {
 }
 
 .content {
-  margin-left: 220px;
+  width: calc(100% - 200px);
+  height: 600px;
+  margin-left: 200px;
   padding: 20px;
   background-color: #e6d3a3;
-  min-height: 100vh;
 }
 
 form {
@@ -76,7 +79,6 @@ form {
   margin: 30px auto;
   background-color: #e6d3a3;
   padding: 20px;
-  border: none;
 }
 
 input[type="text"],
@@ -116,5 +118,5 @@ input[type="submit"] {
 footer {
   height: 60px;
   background-color: #ccc;
-  margin-top: 40px;
+  margin: 0;
 }
